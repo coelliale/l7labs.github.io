@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Privacy Policy e Cookie Policy di L7 Labs." />
+  <meta name="theme-color" content="#0E4F52" />
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Privacy & Cookie — L7 Labs</title>
+  <style>
+    .legal{padding:84px 0 64px}
+    .legal h1{margin:0 0 10px}
+    .legal h2{margin:26px 0 10px}
+    .legal p,.legal li{color:var(--muted)}
+    .legal a{text-decoration:underline}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);color:rgba(233,241,242,.85);font-size:.9rem}
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html" aria-label="Torna alla home">
+        <img src="assets/logo.png" width="44" height="44" alt="Logo L7 Labs" />
+        <span class="brand__text"><strong>L7 Labs</strong><span class="brand__tagline">Above the Noise</span></span>
+      </a>
+      <a class="btn btn--ghost btn--small" href="index.html">← Torna al sito</a>
+    </div>
+  </header>
+
+  <main class="legal">
+    <div class="container">
+      <span class="badge">Documento base (da personalizzare)</span>
+      <h1>Privacy Policy & Cookie Policy</h1>
+      <p><strong>Titolare del trattamento:</strong> L7 Labs — Via Carlo Goldoni 24/A, 25135 Brescia — <a href="mailto:info@l7labs.it">info@l7labs.it</a></p>
+      <p><strong>Ultimo aggiornamento:</strong> <span id="upd"></span></p>
+
+      <h2>1. Tipologie di dati trattati</h2>
+      <ul>
+        <li><strong>Dati di navigazione</strong>: log tecnici (es. indirizzo IP, user-agent, timestamp) necessari al funzionamento e alla sicurezza del sito.</li>
+        <li><strong>Dati forniti volontariamente</strong>: informazioni inviate via email (es. nome, email, contenuto del messaggio).</li>
+      </ul>
+
+      <h2>2. Finalità e base giuridica</h2>
+      <ul>
+        <li><strong>Rispondere a richieste</strong> inviate dall’utente (base giuridica: esecuzione di misure precontrattuali/contrattuali e/o legittimo interesse).</li>
+        <li><strong>Sicurezza e funzionamento</strong> del sito (base giuridica: legittimo interesse).</li>
+      </ul>
+
+      <h2>3. Modalità di trattamento e conservazione</h2>
+      <p>I dati sono trattati con misure tecniche e organizzative adeguate. I dati inviati via email vengono conservati per il tempo necessario a gestire la richiesta e per eventuali obblighi di legge.</p>
+
+      <h2>4. Destinatari e trasferimenti</h2>
+      <p>Il sito può essere ospitato su servizi di hosting (es. GitHub Pages). I fornitori possono trattare dati tecnici di navigazione in qualità di autonomi titolari o responsabili, a seconda del servizio.</p>
+
+      <h2>5. Diritti dell’interessato</h2>
+      <p>Hai diritto di chiedere accesso, rettifica, cancellazione, limitazione, portabilità e opposizione nei limiti previsti dal GDPR. Puoi contattarci a <a href="mailto:info@l7labs.it">info@l7labs.it</a>. Hai inoltre diritto di proporre reclamo al Garante per la protezione dei dati personali.</p>
+
+      <h2>6. Cookie</h2>
+      <p>Questo sito, nella configurazione base, non utilizza cookie di profilazione. Può utilizzare:</p>
+      <ul>
+        <li><strong>Cookie tecnici</strong> (se presenti) necessari al funzionamento.</li>
+      </ul>
+      <p>Se in futuro verranno attivati strumenti di analytics o contenuti di terze parti (es. mappe, video, tracciamenti), verrà aggiornato questo documento e, ove richiesto, sarà mostrato un banner per la gestione del consenso.</p>
+
+      <h2>7. Contatti</h2>
+      <p>Per qualsiasi richiesta relativa alla privacy: <a href="mailto:info@l7labs.it">info@l7labs.it</a>.</p>
+
+      <hr style="border:0;border-top:1px solid rgba(255,255,255,.10);margin:26px 0" />
+      <p class="tiny muted">Nota: questo testo è un modello generico. Per piena conformità (es. se attivi analytics, form con servizi terzi, newsletter, ecc.) conviene farlo revisionare e completare.</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> L7 Labs.</p>
+      <p class="footer__links"><a href="index.html">Home</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const d = new Date();
+    const fmt = d.toLocaleDateString('it-IT', { year:'numeric', month:'long', day:'numeric' });
+    document.getElementById('upd').textContent = fmt;
+  </script>
+</body>
+</html>

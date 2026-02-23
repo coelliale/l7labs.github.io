@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="L7 Labs: consulenza informatica specializzata in networking e sistemi complessi (cluster, storage) e formazione tecnica per tutti i livelli." />
+  <meta name="theme-color" content="#0E4F52" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="L7 Labs — Above the Noise" />
+  <meta property="og:description" content="Consulenza networking e sistemi complessi. Formazione tecnica dal base all’avanzato." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>L7 Labs — Above the Noise</title>
+</head>
+
+<body>
+  <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Torna in alto">
+        <img src="assets/logo.png" width="44" height="44" alt="Logo L7 Labs" />
+        <span class="brand__text">
+          <strong>L7 Labs</strong>
+          <span class="brand__tagline">Above the Noise</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navigazione principale">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="navmenu">
+          <span class="sr-only">Apri menu</span>
+          <span class="nav__burger" aria-hidden="true"></span>
+        </button>
+
+        <ul id="navmenu" class="nav__list">
+          <li><a href="#servizi">Servizi</a></li>
+          <li><a href="#formazione">Formazione</a></li>
+          <li><a href="#metodo">Metodo</a></li>
+          <li><a href="#chi-siamo">Chi siamo</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenuto">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="kicker">Consulenza IT • Networking • Sistemi complessi</p>
+          <h1>Progettiamo e ottimizziamo infrastrutture <span class="accent">affidabili</span>, <span class="accent">scalabili</span> e <span class="accent">performanti</span>.</h1>
+          <p class="lead">
+            L7 Labs supporta aziende e team tecnici con consulenza specialistica su networking, cluster, storage e architetture HA,
+            oltre a formazione su misura per ogni livello.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" href="#contatti">Richiedi una call</a>
+            <a class="btn btn--ghost" href="#servizi">Scopri i servizi</a>
+          </div>
+
+          <ul class="trust">
+            <li>Approccio pragmatico</li>
+            <li>Documentazione chiara</li>
+            <li>Best practice & automazione</li>
+          </ul>
+        </div>
+
+        <div class="hero__card" aria-hidden="true">
+          <div class="metric">
+            <span class="metric__label">Focus</span>
+            <span class="metric__value">Networking</span>
+          </div>
+          <div class="metric">
+            <span class="metric__label">Sistemi</span>
+            <span class="metric__value">Cluster • Storage</span>
+          </div>
+          <div class="metric">
+            <span class="metric__label">Training</span>
+            <span class="metric__value">Base → Avanzato</span>
+          </div>
+          <div class="card__note">
+            <span class="dot"></span>
+            Disponibile per assessment, design e troubleshooting.
+          </div>
+        </div>
+      </div>
+      <div class="hero__bg" aria-hidden="true"></div>
+    </section>
+
+    <!-- SERVIZI -->
+    <section id="servizi" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Servizi</h2>
+          <p>Interventi mirati o percorsi end‑to‑end: dall’assessment al go‑live, con handover e documentazione.</p>
+        </div>
+
+        <div class="grid cards">
+          <article class="card reveal">
+            <h3>Networking & Security</h3>
+            <p>Design, ottimizzazione e troubleshooting: routing/switching, segmentazione, VPN, QoS, hardening e monitoring.</p>
+            <ul class="list">
+              <li>Assessment & capacity planning</li>
+              <li>High availability e resilienza</li>
+              <li>Observability & baselining</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Cluster & High Availability</h3>
+            <p>Architetture HA, failover, orchestrazione e standardizzazione per ridurre downtime e complessità operativa.</p>
+            <ul class="list">
+              <li>Design & implementation</li>
+              <li>Runbook e procedure</li>
+              <li>Test di resilienza</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Storage & Data Platforms</h3>
+            <p>Progettazione e tuning storage per performance e affidabilità: provisioning, snapshot/backup, tiering e DR.</p>
+            <ul class="list">
+              <li>Performance tuning</li>
+              <li>Strategie backup/restore</li>
+              <li>Disaster recovery</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Automazione & Standard</h3>
+            <p>Riduci errori e tempi: infrastruttura ripetibile, configurazioni versionate, check e controlli.</p>
+            <ul class="list">
+              <li>Baseline & templates</li>
+              <li>Change management</li>
+              <li>Documentazione “operabile”</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMAZIONE -->
+    <section id="formazione" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Formazione tecnica</h2>
+          <p>Percorsi modulari, dal livello introduttivo all’avanzanzato, con laboratori pratici e materiale di supporto.</p>
+        </div>
+
+        <div class="grid cards">
+          <article class="card reveal">
+            <h3>Base</h3>
+            <p>Fondamenti chiari e immediatamente applicabili. Ideale per onboarding o cambio ruolo.</p>
+            <ul class="list">
+              <li>Concetti essenziali</li>
+              <li>Lab guidati</li>
+              <li>Quiz & recap</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Intermedio</h3>
+            <p>Consolidamento competenze operative: troubleshooting, best practice e processi.</p>
+            <ul class="list">
+              <li>Casi reali</li>
+              <li>Metriche & strumenti</li>
+              <li>Procedure e runbook</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <h3>Avanzato</h3>
+            <p>Design e ottimizzazione: HA, performance, capacity e analisi root cause.</p>
+            <ul class="list">
+              <li>Architetture complesse</li>
+              <li>Stress test & tuning</li>
+              <li>Workshop su esigenze del team</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="callout reveal">
+          <div>
+            <h3>Modalità</h3>
+            <p>In presenza o da remoto, 1:1 o per team. Programmi personalizzabili su obiettivi e tecnologie.</p>
+          </div>
+          <a class="btn btn--small" href="#contatti">Chiedi un percorso</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- METODO -->
+    <section id="metodo" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Metodo</h2>
+          <p>Riduciamo rumore e complessità: focus su diagnosi, priorità, implementazione pulita e conoscenza trasferibile.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step reveal"><span class="step__n">01</span><h3>Assessment</h3><p>Requisiti, rischi, vincoli e stato attuale. Obiettivi misurabili.</p></div>
+          <div class="step reveal"><span class="step__n">02</span><h3>Design</h3><p>Architettura e piano d’azione: alternative e impatti chiari.</p></div>
+          <div class="step reveal"><span class="step__n">03</span><h3>Implementazione</h3><p>Change plan, rollback, test e validazione.</p></div>
+          <div class="step reveal"><span class="step__n">04</span><h3>Handover</h3><p>Documentazione, runbook e sessioni formative per autonomia del team.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHI SIAMO -->
+    <section id="chi-siamo" class="section section--alt">
+      <div class="container about">
+        <div class="about__copy">
+          <h2>Chi siamo</h2>
+          <p><strong>L7 Labs</strong> è una realtà focalizzata su consulenza informatica in ambito <strong>networking</strong> e <strong>sistemi complessi</strong>.
+            L’obiettivo è portare chiarezza, affidabilità e performance nelle infrastrutture, riducendo il “rumore” operativo
+            con approccio pragmatico, misurabile e documentato.</p>
+          <p class="muted">“Above the Noise” significa: priorità giuste, troubleshooting metodico e soluzioni sostenibili nel tempo.</p>
+        </div>
+
+        <div class="about__panel reveal">
+          <h3>In cosa crediamo</h3>
+          <ul class="list">
+            <li>Soluzioni semplici prima di soluzioni complesse</li>
+            <li>Metriche e osservabilità prima delle opinioni</li>
+            <li>Documentazione e trasferimento conoscenza</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATTI -->
+    <section id="contatti" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contatti</h2>
+          <p>Raccontaci obiettivo e contesto: ti rispondiamo con una proposta chiara e un piano di next step.</p>
+        </div>
+
+        <div class="contact">
+          <div class="contact__card reveal">
+            <h3>Scrivici</h3>
+            <div class="contact__items">
+              <a class="contact__item" href="mailto:info@l7labs.it"><span class="label">Email</span><span class="value">info@l7labs.it</span></a>
+              <div class="contact__item" role="group" aria-label="Indirizzo"><span class="label">Indirizzo</span><span class="value">Via Carlo Goldoni 24/A, 25135 Brescia</span></div>
+              <a class="contact__item" href="#"><span class="label">LinkedIn</span><span class="value">Profilo / Pagina</span></a>
+            </div>
+            <p class="tiny muted">Preferisci un form contatti? Possiamo attivare Netlify Forms o Formspree (senza backend).</p>
+          </div>
+
+          <div class="contact__card contact__card--accent reveal">
+            <h3>Richiedi una call</h3>
+            <p>Mandaci due righe su:</p>
+            <ul class="list"><li>scenario (as-is)</li><li>obiettivo (to-be)</li><li>vincoli (tempi/budget/tecnologie)</li></ul>
+            <a class="btn" href="mailto:info@l7labs.it?subject=Richiesta%20call%20-%20L7%20Labs">Invia email</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> L7 Labs. Tutti i diritti riservati.</p>
+      <p class="footer__links">
+        <a href="privacy.html">Privacy & Cookie</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
